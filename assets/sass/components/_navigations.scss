@@ -1,0 +1,43 @@
+/* Header Layout
+ ========================================================================== */
+.navigation {
+  padding: 5px 50px;
+}
+
+.navigation__logo {
+  width: 20%;
+
+  img {
+    padding-top: 3px;
+  }
+}
+
+.navigation__container {
+  display: inline-block;
+  width: 80%;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+.navigation__item {
+  display: inline;
+  float: left;
+
+  a {
+    display: block;
+    padding: 10px;
+    font-family: $open-sans;
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+      color: $nickel;
+    }
+  }
+
+}

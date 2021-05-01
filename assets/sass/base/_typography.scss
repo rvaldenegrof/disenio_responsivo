@@ -1,0 +1,28 @@
+/* Typography Base
+   ========================================================================== */
+h1, h2,h3, h4, h5, h6 {
+  font-family: $alfa-slab;
+}
+
+h1 {
+  font-size: $xx-large;
+}
+
+h2 {
+  font-size: $x-large;
+}
+
+h3 {
+  font-size: $large;
+}
+
+p {
+  font-family: $open-sans;
+  font-size: $regular;
+  line-height: 25px;
+}
+
+small {
+  font-family: $open-sans;
+  font-size: $small;
+}

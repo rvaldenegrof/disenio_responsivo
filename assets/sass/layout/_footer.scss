@@ -1,0 +1,31 @@
+/* Footer Layout
+   ========================================================================== */
+.footer {
+  height: 150px;
+  position: relative;
+  background-color: $black;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.footer__container {
+  padding-top: 60px;
+  text-align: center;
+
+  small {
+    display: inline-block;
+    margin-top: 20px;
+    color: $white;
+  }
+}
+
+.social-navigation {
+  margin-right: 10px;
+  font-size: 30px;
+  color: $white;
+
+}
